@@ -1,142 +1,131 @@
-<!DOCTYPE html>
-<html lang="en">
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+    background-image: url(images/bg800bulbs.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HT Green</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+#Container {
+    max-width: 1000px;
+    width: 100%;
+    background-color: white;
+    margin: 30px auto;
+    padding: 0;
+    border: 1px #f4f4f4;
+    border-radius: 15px;
+}
 
+header {
+    height: 300px;
+    width: 100%;
+    background-image: url(images/htgreen-hero.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: contain;
+    background-position: center;
+    padding: 0;
 
-<body>
- <a href="#main-content" class="visually-hidden-focusable">Skip to main content</a>
+}
 
-    <div id="Container">
+.Navtop {
+    background-image: url(images/logo32.png);
+    background-repeat: no-repeat;
+    width: auto;
+    display: block;
+    background-color: white;
+    margin: 0;
+    padding: 49px;
+    border-radius: 15px;
+}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
+nav li {
+    display: inline;
+    margin: 10px;
+}
 
-        <div class="Navtop">
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
 
-            <nav>
-                <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#solar">Solar PV</a></li>
-                    <li><a href="#geothermal">Geothermal</a></li>
-                    <li><a href="#wind">Wind Turbines</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                </ul>
-            </nav>
+main {
+    padding: 2rem;
+    border-top: 2px solid #d6790e;
+}
 
-        </div>
-               <header></header>
-        <main>
-            <section id="Intro">
-                <h1>Towards a zero electricity bill</h1>
-                <hr>
-                <p>Sick of getting big power bills? You've replaced all the old bulbs with LEDs, got a new fridge and
-                    super-efficient heat pump and you're still paying around $1200 a year?</p>
-                <p>Your next step is to let HT Green work with you to design and install a system that uses solar, wind
-                    or geothermal that's guaranteed to wipe that power bill for now and into the future.</p>
-            </section>
+h2 {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
 
-            <section id="solar">
-                <h2>Solar PV Solutions</h2>
-                <hr>
-                <div class="areas">
-                    <img src="images/pv250.jpg" class="Images" alt="Solar-PV">
-                </div>
-                <p>Solar Photovoltaic systems have come of age. Installers now can guarantee reliable cost-free power to
-                    your home or business.</p>
-                <p>ROI is now taking less time than ever thanks to the ever-decreasing equipment costs and better
-                    technology. If you have battery storage such as a Tesla Powerwall or similar Lithium Ion chemistry
-                    solutions then you can take your savings even further.</p>
-                <p>Call us now to discuss which solution is the best fit for your home.</p>
-            </section>
+blockquote {
+    background-color: #f4f4f4;
+    border-left: 10px solid #d6790e;
+    margin: 1rem 0;
+    padding: 1rem;
+    font-style: italic;
+}
 
-            <section id="geothermal">
-                <h2>Geothermal</h2>
-                <hr>
-                <div class="Images">
-                    <img src="images/geo250.jpg" class="Images" alt="Geothermal">
-                </div>
-                <p>Energy from the earth. It sounds simple because it is. The earth is warmer than the air and we can
-                    use this to heat your home.</p>
-                <p>HT Green can engineer a solution to fit your situation to give you free plentiful home warming energy
-                    year-round.</p>
-                <p>Geothermal power is cost effective, reliable, and environmentally friendly, but has previously been
-                    geographically limited to areas near tectonic plate boundaries.</p>
-                <p>Recent technological advances have dramatically expanded the range and size of viable resources,
-                    especially for direct applications such as home heating.</p>
-                <p>Geothermal wells tend to release greenhouse gases trapped deep within the earth, but these emissions
-                    are much lower than those of conventional fossil fuels. As a result, geothermal power has the
-                    potential to help mitigate global warming if widely deployed instead of fossil fuels.</p>
-            </section>
+.backtotop {
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    list-style: none;
 
-            <section id="wind-turbines">
-                <h2>Wind Turbines</h2>
-                <hr>
-                <div class="Images">
-                    <img src="images/turbine250.jpg" class="Images" alt="Wind-Turbine">
-                </div>
-                <p>If you have the space and the aspect, we have the know-how to engineer a wind turbine system that
-                    generates electricity when the wind blows. Team a wind turbine with a solar PV system and you
-                    increase your energy generation potential.</p>
-                <p>New to wind power? HT Green can show you more about how a wind turbine works, the benefits of wind
-                    energy and how a wind turbine is installed.</p>
-                <p>If you're not sure on the type of turbine you need, before you buy from us, contact one of our wind
-                    power experts for the right advice.</p>
-            </section>
+}
 
-            <section id="about-us">
-                <h2>About Us</h2>
-                <hr>
-                <p>HT Green was established in 1997. We specialise in green technologies such as solar, wind turbines,
-                    geothermal and now small-scale hydro plants.</p>
-                <p>Company Directors Robert and Janet Wilkins built HT Green from the ground up with a small business
-                    grant and big dreams to power homes and businesses with energy derived from natural sources.</p>
-            </section>
+.backtotop a {
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px double grey;
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #333;
+}
 
-            <div class="backtotop">
-                <li><a href="#Intro">Back To Top</a></li>
-            </div>
+footer {
+    width: auto;
+    background-color: #d6790e;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
 
-            <section id="testimonials">
-                <div class="toptest">
-                    <h2>Testimonials</h2>
-                    <img src="images/testimonials/j-g-brown-200.jpg" class="Testimonialsimg" alt="June & Gavin Brown">
-                    <blockquote>"We installed our solar panels last year and our electricity bill is now less than zero.
-                        We actually went into credit in late Spring!"</blockquote>
-                    <h3>June & Gavin Brown, Surrey Hills NSW</h3>
-                </div>
+.visually-hidden-focusable {
+    position: absolute;
+    left: -999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
 
-                <img src="images/testimonials/r-sanderson-200.jpg" class="Testimonialsimg" alt="Roberta Sanderson">
-                <blockquote>"We toyed with the idea of installing a hydro system a while back and never got around to it
-                    but thanks to HT Green's Hydro Oasis System it was easy! Our creek supplies our total energy needs."
-                </blockquote>
-                <h3>Sandra & Peter Hill, Adelaide SA.</h3>
-
-                <img src="images/testimonials/s-p-hill-200.jpg" class="Testimonialsimg" alt="Sandra & Peter Hill">
-                <blockquote>"I can look forward to no more electricity bills! HT Green took care of everything;
-                    recommended!"</blockquote>
-                <h3>Roberta Sanderson, TAS</h3>
-
-                <div class="backtotop">
-                    <li><a href="#Intro">Back To Top</a></li>
-
-
-                </div>
-
-            </section>
-
-</body>
-</main>
-<footer>
-    <p>Copyright © 2022</p>
-</footer>
-</div>
-
-
-
-</html>
+.visually-hidden-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 8px;
+    background: #d6790e;
+    color: #fff;
+    z-index: 1000;
+    font-weight: bold;
+}
