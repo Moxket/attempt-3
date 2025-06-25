@@ -11,12 +11,11 @@ body {
 }
 
 #Container {
-    max-width: 1000px;
-    width: 90%;
+    width: 1000px;
     background-color: white;
     margin: 30px auto;
-    padding: 30px;
-    border: 1px solid #f4f4f4;
+    padding: 30px auto;
+    border: #f4f4f4;
     border-radius: 15px;
 }
 
@@ -27,7 +26,7 @@ header {
     background-size: contain;
     background-position: center;
     margin: auto;
-    padding: 0;
+    padding: auto;
 }
 
 .Navtop {
@@ -39,17 +38,16 @@ header {
     margin: 30px auto;
     padding: 20px 40px;
     border-radius: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 nav {
-    padding: 0;
+    padding:20px 40px;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: right;
 }
 
 nav li {
@@ -61,24 +59,16 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     color: #333;
-    outline-offset: 2px;
-}
-
-nav a:focus,
-nav a:hover {
-    outline: 3px solid #d6790e;
-    outline-offset: 2px;
-    color: #d6790e;
 }
 
 main {
     padding: 2rem;
-    border-top: 4px solid #d6790e;
+    border-top: 2px solid #d6790e;
 }
 
 h2 {
-    color: #000;
-    font-size: 1.6rem;
+    color: black;
+    font-size: 25px;
     font-weight: bold;
     margin-top: 2rem;
 }
@@ -89,7 +79,6 @@ blockquote {
     margin: 1rem 0;
     padding: 1rem;
     font-style: italic;
-    color: #333;
 }
 
 .backtotop {
@@ -97,6 +86,7 @@ blockquote {
     margin: 20px 0;
     text-align: center;
     list-style: none;
+
 }
 
 .backtotop a {
@@ -107,33 +97,16 @@ blockquote {
     padding: 10px 20px;
     display: inline-block;
     color: #333;
-    outline-offset: 2px;
-}
-
-.backtotop a:focus,
-.backtotop a:hover {
-    border-color: #d6790e;
-    color: #d6790e;
-    outline: 3px solid #d6790e;
 }
 
 footer {
-    width: 100%;
+    width: auto;
     background-color: #d6790e;
     margin: 0;
     padding: 20px;
+    content: 0;
+    border: #d6790e;
     border-radius: 13px;
     text-align: left;
     color: white;
-    font-size: 1rem;
-}
-
-@media (max-width: 600px) {
-    h2 {
-        font-size: 1.3rem;
-    }
-    #Container {
-        width: 95%;
-        padding: 15px;
-    }
 }
