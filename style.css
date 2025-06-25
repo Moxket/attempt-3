@@ -11,25 +11,34 @@ body {
 }
 
 #Container {
-    width: 1200px;
+    width: 1000px;
     background-color: white;
     margin: 30px auto;
-    padding: 30px;
+    padding: 0;
+    border:1px #f4f4f4;
+    border-radius: 15px;
 }
 
 header {
-    height: 318px;
+    height: 300px;
+    width: 100%;
     background-image: url(images/htgreen-hero.jpg);
     background-repeat: no-repeat;
+    display: block;
     background-size: contain;
     background-position: center;
+    padding: 0;
+ 
 }
 
 .Navtop {
-    width: 1200px;
+    background-image: url(images/logo32.png);
+    background-repeat: no-repeat;
+    width: auto;
+    display: block;
     background-color: white;
-    margin: 30px auto;
-    padding: 15px;
+    margin:0;
+    padding: 49px;
     border-radius: 15px;
 }
 
@@ -90,7 +99,7 @@ blockquote {
 }
 
 footer {
-    width: 1180px;
+    width: auto;
     background-color: #d6790e;
     margin: 30px auto;
     padding: 15px;
