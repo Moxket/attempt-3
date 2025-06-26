@@ -134,6 +134,7 @@ table {
     border-collapse: collapse;
     margin: 20px 0;
     font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
 }
 
 table th, table td {
@@ -145,6 +146,7 @@ table th, table td {
 table th {
     background-color: #007acc;
     color: white;
+    
 }
 
 table tr:nth-child(even) {
